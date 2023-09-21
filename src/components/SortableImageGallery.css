@@ -1,0 +1,6 @@
+.gallery-title{
+    display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  
+}

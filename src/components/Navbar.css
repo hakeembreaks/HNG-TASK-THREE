@@ -1,0 +1,49 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .logo span {
+    font-size: 24px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .logo img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .logo span {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px */
+    .logo img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .logo span {
+      font-size: 16px;
+    }
+  }
+  
